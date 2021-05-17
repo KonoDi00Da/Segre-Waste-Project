@@ -1,8 +1,15 @@
+html {
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+}
 body
 {
-  background-color:#ffffff;
+
+  min-height: 100%;
   font-family: 'Arial', sans-serif;
   -webkit-font-smoothing: antialiased;
+  background-color: #ffffff;
 }
 
 *
@@ -22,6 +29,16 @@ p
 {
   font-size:12px;
 }
+
+#bg {
+  /* The image used */
+  background-image: url("/background.png");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 #center{
   justify-content: center;
 }
