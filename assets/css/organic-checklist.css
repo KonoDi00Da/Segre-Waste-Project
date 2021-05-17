@@ -138,4 +138,8 @@ form {
 }
 
 
+.bg-image{
+	width: 500px;
+	display: flex;
+}
 

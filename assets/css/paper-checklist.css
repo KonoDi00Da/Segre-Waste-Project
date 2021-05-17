@@ -136,6 +136,10 @@ form {
 .overlay-right {
 	right: 0;
 }
+.bg-image{
+	width: 500px;
+	display: flex;
+}
 
 
 

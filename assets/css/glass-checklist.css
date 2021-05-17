@@ -137,5 +137,9 @@ form {
 	right: 0;
 }
 
+.bg-image{
+	width: 500px;
+	display: flex;
+}
 
 
