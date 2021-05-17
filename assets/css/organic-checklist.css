@@ -143,3 +143,10 @@ form {
 	display: flex;
 }
 
+.home{
+	position: absolute;
+	top: 30px;
+	left: 30px;
+	cursor: pointer;
+	max-width: 32px;
+  }

@@ -6,6 +6,10 @@
   <link rel="stylesheet" href="assets/css/home.css">  
 </head>
 <body background="/background.png">
+  <ul>
+    <li><a href="Login.html">Logout</a></li>
+  </ul>
+
       <div id="heading">
       <span>Segregate your waste</span> 
     </div>
@@ -36,8 +40,18 @@
       </div>
     </div> 
     <div class="btn-maps">
-      <input name="maps" class="btn" type="button" value="Maps">
+      <input name="maps" class="btn" type="button" value="Maps" onclick="toggle();">
     </div>
+    <div class="mapAnim">
+      <video src="assets/map-animation.mp4" controls="true" controls autoplay poster="assets/images/map.png"></video>
+      <img src="assets/images/cancel.svg" class="close" onclick="toggle();">
+    </div>
+    <script type="text/javascript">
+      function toggle(){
+        var mapAnim = document.querySelector(".mapAnim")
+        mapAnim.classList.toggle("active")
+      }
+    </script>
   
 </body>
 </html>
